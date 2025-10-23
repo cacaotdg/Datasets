@@ -26,7 +26,7 @@ print("Modelo YOLO cargado correctamente")
 # Entrenar el modelo
 results = model.train(
     data=data_path,
-    epochs=300,
+    epochs=3,
     imgsz=800,
     batch=8,
     conf=0.3,
