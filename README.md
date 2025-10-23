@@ -4,6 +4,12 @@
 
 import os
 
+from ultralytics import YOLO
+
+import torch
+
+import shutil
+
 !git clone https://github.com/cacaotdg/Datasets.git
 
 %cd Datasets
