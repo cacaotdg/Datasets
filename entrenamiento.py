@@ -17,11 +17,11 @@ dataset_path = "/content/Datasets/escenas"
 # opciones posibles: "PCA_closed", "PCA_open", "SPEC_closed", "SPEC_open"
 data_path = os.path.join(dataset_path, "PCA_open", "data.yaml")
 
-print(f"📂 Dataset cargado desde: {data_path}")
+print(f"Dataset cargado desde: {data_path}")
 
 # Cargar modelo YOLO preentrenado
 model = YOLO("yolov8m.pt")
-print("✅ Modelo YOLO cargado correctamente")
+print("Modelo YOLO cargado correctamente")
 
 # Entrenar el modelo
 results = model.train(
@@ -46,4 +46,4 @@ results = model.train(
 )
 
 # Guardar el modelo entrenado
-print("🏁 Entrenamiento finalizado.")
+print("Entrenamiento finalizado.")
