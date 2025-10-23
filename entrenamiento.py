@@ -7,17 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1Eir_lGDbD_aTp3NyqrHQskqdVCd3epCt
 """
 
-# dependencias y bibliotecas
-!pip install -q ultralytics albumentations
-import os
-from ultralytics import YOLO
-import torch
-import shutil
-
-# Clonar repositorio con los datasets
-!git clone https://github.com/cacaotdg/Datasets.git
-dataset_path = "/content/Datasets/escenas"
-
 # opciones: "PCA_closed", "PCA_open", "SPEC_closed", "SPEC_open"
 data_path = os.path.join(dataset_path, "PCA_open", "data.yaml")
 
