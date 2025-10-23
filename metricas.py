@@ -13,7 +13,7 @@ from ultralytics import YOLO
 # Cargar el modelo entrenado
 model_path = "/content/runs/detect/train/weights/best.pt"
 model = YOLO(model_path)
-print("✅ Modelo entrenado cargado correctamente")
+print("Modelo entrenado cargado correctamente")
 
 # Evaluar el modelo
 metrics = model.val(data=data_path)
@@ -25,7 +25,7 @@ recall = metrics.box.mr     # Recall
 f1_score = 2 * (precision * recall) / (precision + recall)
 
 # Mostrar métricas
-print("\n📊 Resultados del modelo:")
+print("\nResultados del modelo:")
 print(f"IoU@0.5 (mAP@0.5): {iou_50:.4f}")
 print(f"Precisión: {precision:.4f}")
 print(f"Recall: {recall:.4f}")
