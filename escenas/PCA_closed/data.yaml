@@ -1,6 +1,5 @@
-train: "/content/drive/My Drive/escenas/train"
-
-val: "/content/drive/My Drive/escenas/val"
+train: /content/Datasets/escenas/PCA_closed/train
+val: /content/Datasets/escenas/PCA_closed/val
 
 nc: 3
 names: ['bueno', 'malo', 'parcial']
