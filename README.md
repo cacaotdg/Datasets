@@ -11,3 +11,5 @@
 # Luego ejecutar el metricas.py para ver los resultados con:
 
 !python metricas.py
+
+# colab con los codigos: https://colab.research.google.com/drive/1Eir_lGDbD_aTp3NyqrHQskqdVCd3epCt?usp=sharing
