@@ -2,8 +2,6 @@
 
 !pip install -q ultralytics albumentations
 import os
-
-# Clonar el repositorio de GitHub con datasets y scripts
 !git clone https://github.com/cacaotdg/Datasets.git
 %cd Datasets
 
