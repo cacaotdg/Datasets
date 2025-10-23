@@ -1,5 +1,15 @@
-# Datasets
+# Primero el codigo para clonar el repositorio
 
-Ejecutar primero el entrenamiento.py para el entrenamiento del modelo con:
+!pip install -q ultralytics albumentations
+import os
 
-Luego ejecutar el metricas.py para ver los resultados con:
+# Clonar el repositorio de GitHub con datasets y scripts
+!git clone https://github.com/cacaotdg/Datasets.git
+%cd Datasets
+
+#Ejecutar primero el entrenamiento.py para el entrenamiento del modelo con:
+
+!python entrenamiento.py
+
+#Luego ejecutar el metricas.py para ver los resultados con:
+!python metricas.py
