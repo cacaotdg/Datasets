@@ -1,18 +1,8 @@
 # Primero el codigo para clonar el repositorio
 
-!pip install -q ultralytics albumentations
-
-import os
-
-from ultralytics import YOLO
-
-import torch
-
-import shutil
-
 !git clone https://github.com/cacaotdg/Datasets.git
 
-%cd Datasets
+%cd /content/Datasets
 
 # Ejecutar primero el entrenamiento.py para el entrenamiento del modelo con:
 
