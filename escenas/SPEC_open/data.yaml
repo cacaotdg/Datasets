@@ -1,0 +1,6 @@
+train: "/content/drive/My Drive/escenas/train"
+
+val: "/content/drive/My Drive/escenas/val"
+
+nc: 3
+names: ['bueno', 'malo', 'parcial']
