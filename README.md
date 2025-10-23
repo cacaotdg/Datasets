@@ -8,10 +8,10 @@ import os
 
 %cd Datasets
 
-#Ejecutar primero el entrenamiento.py para el entrenamiento del modelo con:
+# Ejecutar primero el entrenamiento.py para el entrenamiento del modelo con:
 
 !python entrenamiento.py
 
-#Luego ejecutar el metricas.py para ver los resultados con:
+# Luego ejecutar el metricas.py para ver los resultados con:
 
 !python metricas.py
