@@ -11,7 +11,7 @@ import os
 from ultralytics import YOLO
 
 # Cargar el modelo entrenado
-model_path = "/content/runs/detect/train/weights/best.pt"
+model_path = "/content/Datasets/runs/detect/train/weights/best.pt"
 model = YOLO(model_path)
 print("Modelo entrenado cargado correctamente")
 
